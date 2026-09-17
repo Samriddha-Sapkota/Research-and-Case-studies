@@ -1,11 +1,10 @@
-
 # Software Supply Chain Security
 
 ## Overview
 
 This research examines software supply-chain security and the risks created when vulnerabilities or malicious changes are introduced upstream in the software development and distribution process.
 
-Modern software depends on interconnected components, repositories, build systems, CI/CD pipelines, package registries and third-party dependencies. A compromise at one point in this chain can potentially affect organisations further downstream.
+Modern software depends on interconnected components, repositories, build systems, CI/CD pipelines, package registries, and third-party dependencies. A compromise at one point in this chain can potentially affect organisations further downstream.
 
 The research evaluates three complementary security approaches:
 
@@ -15,7 +14,7 @@ The research evaluates three complementary security approaches:
 
 ## Research Question
 
-How can organisations improve visibility, provenance and security assurance across the software supply chain?
+**How can organisations improve visibility, provenance, and security assurance across the software supply chain?**
 
 ## Research Focus
 
@@ -37,7 +36,7 @@ The research examines:
 
 ## Threat Landscape
 
-The research identifies several areas where software supply chains can be compromised:
+The research identifies several areas where software supply chains can be compromised.
 
 ### Upstream Dependency Compromise
 
@@ -73,7 +72,7 @@ This can support:
 
 SLSA-style approaches are examined as a method of increasing confidence in where and how software artifacts were produced.
 
-The focus is on build integrity, provenance and the ability to establish evidence about the software production process.
+The focus is on build integrity, provenance, and the ability to establish evidence about the software production process.
 
 ### NIST SSDF
 
@@ -94,7 +93,7 @@ The case is used to discuss:
 - Trust in vendor updates
 - Detection challenges
 - Evidence and assurance
-- The need for stronger software-development controls
+- Secure software-development controls
 
 ### Log4Shell
 
@@ -104,20 +103,74 @@ The case highlights the importance of understanding which components exist withi
 
 ## Layered Security Model
 
-The research proposes combining multiple controls rather than depending on a single mechanism.
+The research considers SBOMs, provenance, and secure development practices as complementary controls.
 
 ```text
-                 SOFTWARE SUPPLY CHAIN
-                         │
-        ┌────────────────┼────────────────┐
-        │                │                │
-       SBOM          Provenance          SSDF
-        │                │                │
- Component          Build / Artifact   Secure Development
- Visibility           Assurance           Practices
-        │                │                │
-        └────────────────┼────────────────┘
-                         │
-                 Better Software
-                  Supply-Chain
-                     Assurance
+              SOFTWARE SUPPLY CHAIN
+                       |
+        +--------------+--------------+
+        |              |              |
+       SBOM        Provenance         SSDF
+        |              |              |
+  Component        Build /        Secure
+  Visibility       Artifact       Development
+                   Assurance       Practices
+        |              |              |
+        +--------------+--------------+
+                       |
+              Supply-Chain Assurance
+```
+
+The three approaches address different aspects of the problem:
+
+| Control | Primary Security Goal |
+|---|---|
+| SBOM | Visibility into software components and dependencies |
+| SLSA-style provenance | Evidence about software origin and build integrity |
+| SSDF | Secure development practices throughout the SDLC |
+
+## Key Findings
+
+The research concludes that software supply-chain security requires visibility, assurance, and secure development practices working together.
+
+An organisation may know which components are present without knowing whether an artifact was produced through a trustworthy build process. Similarly, strong development practices do not automatically provide complete visibility into every dependency used by a software product.
+
+A layered approach can therefore provide broader assurance than relying on a single control.
+
+## Key Learning Outcomes
+
+This research developed my understanding of:
+
+- Software supply-chain attack surfaces
+- Dependency management
+- SBOMs
+- Software provenance
+- Build integrity
+- CI/CD security
+- Secure software development
+- Software assurance
+- Supply-chain risk management
+- The relationship between development security and operational security
+
+## Limitations
+
+This research is primarily a literature and case-study analysis.
+
+It does not present:
+
+- A production software supply-chain implementation
+- A formal security proof
+- Independent penetration testing of the case-study organisations
+- A complete implementation of SLSA or SSDF
+- A guarantee that the discussed controls eliminate supply-chain risk
+
+## Academic Context
+
+This work was completed as academic cybersecurity research.
+
+It is intended to demonstrate research, analysis, and understanding of software supply-chain security rather than claim professional implementation experience.
+
+## Files
+
+- `report.pdf` — Full academic research report
+- `README.md` — Portfolio summary of the research
