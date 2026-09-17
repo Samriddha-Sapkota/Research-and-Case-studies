@@ -1,47 +1,45 @@
 # Cybersecurity Research
 
-This directory contains selected cybersecurity research and case studies examining real-world cyber incidents, vulnerabilities, attack techniques, defensive controls, and the broader security implications of modern technology.
+This directory contains selected cybersecurity research and case studies examining real-world cyber incidents, vulnerabilities, security controls, and the broader implications of information security.
 
-The work presented here was completed primarily in an academic context and focuses on analysing incidents from both technical and organisational perspectives.
+The work covers both technical and non-technical aspects of cybersecurity, including attack techniques, defensive strategies, professional ethics, legal considerations, and organisational risk.
 
 ## Research Areas
 
-The collection currently covers:
-
-- Advanced Persistent Threats (APTs)
-- Cyber espionage and defence
+- Advanced Persistent Threats
+- Cyber espionage
+- Network security
 - Supply-chain security
 - Automotive cybersecurity
-- Connected vehicle security
 - Vulnerability management
-- Network security and segmentation
-- Incident detection and response
+- Incident response
 - Secure-by-design principles
-- Cybersecurity ethics and professional responsibility
-- Legal and social implications of cybersecurity incidents
+- Cybersecurity ethics
+- Security governance
 
 ## Case Studies
 
 | Case Study | Focus |
 |---|---|
-| [APT1 & Lockheed Martin](./Apt1-Lockheed-Martin/) | Advanced Persistent Threats, cyber espionage, supply-chain exposure and defensive strategies |
-| [Jeep Cherokee Uconnect](./Jeep-Cherokee-Uconnect/) | Automotive cybersecurity, remote exploitation, CAN bus security, ethics and regulation |
-| [Software Supply Chain Security](./Software-Supply-Chain-Security/) | SBOMs, software provenance, SLSA-style controls, SSDF and supply-chain compromise |
+| [APT1 & Lockheed Martin](./Apt1-Lockheed-Martin/) | Advanced Persistent Threats, cyber espionage, supply-chain exposure, and defensive strategies |
+| [Jeep Cherokee Uconnect](./Jeep-Cherokee-Uconnect/) | Automotive cybersecurity, connected vehicles, CAN bus security, ethics, and regulation |
+| [Software Supply Chain Security](./Software-Supply-Chain-Security/) | SBOMs, software provenance, SLSA-style controls, SSDF, and supply-chain security |
 
 ## Purpose
 
-The purpose of this collection is to document the ability to:
+The purpose of this collection is to document my ability to:
 
 - Analyse real-world cybersecurity incidents
 - Identify technical and organisational security weaknesses
 - Evaluate potential attack and defence mechanisms
 - Connect incidents with established cybersecurity principles
-- Examine the ethical and legal responsibilities surrounding security
+- Examine ethical and professional responsibilities
+- Analyse legal and regulatory considerations
 - Translate lessons from historical incidents into practical security controls
 
 ## Academic Context
 
-These studies were produced as part of undergraduate coursework and independent cybersecurity research.
+The studies in this directory were produced primarily as part of undergraduate academic work and research.
 
 They are presented as academic research and case-study analysis rather than professional incident-response reports or claims of professional security experience.
 
@@ -49,22 +47,4 @@ They are presented as academic research and case-study analysis rather than prof
 
 The reports represent academic analysis conducted at the time of their preparation. Some technical, legal, regulatory, and threat information may evolve over time.
 
-Where appropriate, the original reports are retained alongside portfolio-oriented summaries for transparency.
-
-## Repository Structure
-
-```text
-Cybersecurity/
-├── Apt1-Lockheed-Martin/
-│   ├── README.md
-│   └── report.pdf
-│
-├── Jeep-Cherokee-Uconnect/
-│   ├── README.md
-│   └── report.pdf
-│
-├── Software-Supply-Chain-Security/
-│   ├── README.md
-│   └── report.pdf
-│
-└── README.md
+The original reports are retained alongside portfolio-oriented summaries where applicable.
