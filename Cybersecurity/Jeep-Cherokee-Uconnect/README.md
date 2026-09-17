@@ -4,9 +4,9 @@
 
 This case study examines the 2015 cybersecurity research involving a Jeep Cherokee equipped with the Uconnect connected-vehicle system.
 
-The research explores how externally reachable vehicle systems could interact with internal vehicle networks and how weaknesses in network isolation, authentication and secure-by-design practices created significant cybersecurity and safety concerns.
+The research explores how externally reachable vehicle systems could interact with internal vehicle networks and how weaknesses in network isolation, authentication, and secure-by-design practices created significant cybersecurity and safety concerns.
 
-The study approaches the incident from technical, ethical, legal and social perspectives.
+The study approaches the incident from technical, ethical, legal, and social perspectives.
 
 ## Research Focus
 
@@ -57,7 +57,7 @@ The research examines the incident through professional codes and principles, in
 - Comprehensive risk evaluation
 - Responsible vulnerability disclosure
 
-The report considers the balance between security research, public disclosure and the potential consequences of releasing information about vulnerabilities in safety-critical systems.
+The report considers the balance between security research, public disclosure, and the potential consequences of releasing information about vulnerabilities in safety-critical systems.
 
 ## Legal and Regulatory Analysis
 
