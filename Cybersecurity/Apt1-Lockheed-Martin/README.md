@@ -3,7 +3,6 @@
 
 # 2. `Cybersecurity/Apt1-Lockheed-Martin/README.md`
 
-```markdown
 # APT1 & Lockheed Martin
 
 ## Overview
